@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sidebar_info_item",
+  "info": {
+    "displayName": "Info Item"
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

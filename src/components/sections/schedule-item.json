@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sections_schedule_items",
+  "info": {
+    "displayName": "Schedule Item",
+    "description": "An item in an event schedule"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "time",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "speaker": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "integer",
+      "min": 1,
+      "default": 60,
+      "required": true
+    }
+  }
+}

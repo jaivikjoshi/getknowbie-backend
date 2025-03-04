@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_two_column_section",
+  "info": {
+    "displayName": "Two Column Section"
+  },
+  "attributes": {
+    "leftContent": {
+      "type": "richtext"
+    },
+    "rightContent": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

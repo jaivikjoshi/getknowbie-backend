@@ -1,0 +1,129 @@
+{
+  "kind": "collectionType",
+  "collectionName": "t2s",
+  "info": {
+    "singularName": "t2",
+    "pluralName": "t2s",
+    "displayName": "t2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header_Title": {
+      "type": "string"
+    },
+    "Card1_IMG": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Card1_Title": {
+      "type": "string"
+    },
+    "Card2_IMG": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Card3_IMG": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Card3_Title": {
+      "type": "string"
+    },
+    "Card2_Title": {
+      "type": "string"
+    },
+    "product_Info_title": {
+      "type": "string"
+    },
+    "target_demographic_title": {
+      "type": "string"
+    },
+    "header_Content": {
+      "type": "richtext"
+    },
+    "product_Info_Content": {
+      "type": "richtext"
+    },
+    "target_demographic_IMG": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Button_Text": {
+      "type": "string"
+    },
+    "Closing_Statements_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "closing_Statement_title": {
+      "type": "string"
+    },
+    "closing_statement_Content": {
+      "type": "richtext"
+    },
+    "logo_Partner_PNG": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}

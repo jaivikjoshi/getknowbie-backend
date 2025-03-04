@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": "Manage home page content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "component": "sections.hero-section",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "component": "sections.features-section",
+      "required": true
+    },
+    "benefits": {
+      "type": "component",
+      "component": "sections.benefits-section",
+      "required": true
+    },
+    "appDownload": {
+      "type": "component",
+      "component": "sections.app-download-section",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "component": "shared.seo"
+    }
+  }
+}

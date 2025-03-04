@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_content_section",
+  "info": {
+    "displayName": "Content Section"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

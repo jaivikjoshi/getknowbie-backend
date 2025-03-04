@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "template2s",
+  "info": {
+    "singularName": "template2",
+    "pluralName": "template2s",
+    "displayName": "Template2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroBackground": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "string"
+    },
+    "contentSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.content-section"
+    },
+    "twoColumnSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.two-column-section"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "LogoPartner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

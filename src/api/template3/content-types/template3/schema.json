@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "template3s",
+  "info": {
+    "singularName": "template3",
+    "pluralName": "template3s",
+    "displayName": "Template3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "eventBanner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "eventTitle": {
+      "type": "string"
+    },
+    "eventDate": {
+      "type": "datetime"
+    },
+    "eventLocation": {
+      "type": "string"
+    },
+    "mainContent": {
+      "type": "richtext"
+    },
+    "scheduleItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.schedule-item"
+    },
+    "sidebarInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sidebar.info-item"
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}

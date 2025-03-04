@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_schedule_schedule_item",
+  "info": {
+    "displayName": "Schedule Item"
+  },
+  "attributes": {
+    "time": {
+      "type": "string",
+      "required": true
+    },
+    "activity": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "template1s",
+  "info": {
+    "singularName": "template1",
+    "pluralName": "template1s",
+    "displayName": "Template1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "HeroTitle": {
+      "type": "string"
+    },
+    "HeroSubtitle": {
+      "type": "string"
+    },
+    "WelcomeTitle": {
+      "type": "string"
+    },
+    "WelcomeSubtitle": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "WelcomeText": {
+      "type": "richtext"
+    },
+    "YouTube_URL": {
+      "type": "string"
+    }
+  }
+}
