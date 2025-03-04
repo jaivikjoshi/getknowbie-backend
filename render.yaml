@@ -25,7 +25,7 @@ services:
       - key: TRANSFER_TOKEN_SALT
         generateValue: true
       - key: APP_KEYS
-        generateValue: true
+        value: "key1,key2,key3,key4"
       - key: RENDER_EXTERNAL_URL
         fromService:
           name: getknowbie-strapi
