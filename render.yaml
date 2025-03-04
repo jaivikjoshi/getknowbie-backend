@@ -3,11 +3,11 @@ services:
     name: getknowbie-strapi
     env: node
     buildCommand: npm install && npm run build
-    startCommand: ./start.sh
+    startCommand: npm start
     healthCheckPath: /_health
     envVars:
       - key: NODE_VERSION
-        value: 18.0.0
+        value: 18.x
       - key: NODE_ENV
         value: production
       - key: HOST
