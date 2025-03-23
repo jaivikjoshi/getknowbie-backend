@@ -431,6 +431,7 @@ export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
         number
       >;
     slug: Schema.Attribute.UID<'title'>;
+    Tab: Schema.Attribute.String;
     tags: Schema.Attribute.Text;
     title: Schema.Attribute.String &
       Schema.Attribute.Required &

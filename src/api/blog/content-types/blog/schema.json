@@ -112,6 +112,9 @@
     },
     "TypeOfBlog": {
       "type": "string"
+    },
+    "Tab": {
+      "type": "string"
     }
   }
 }
